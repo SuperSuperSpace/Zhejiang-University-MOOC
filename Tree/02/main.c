@@ -51,7 +51,7 @@ Tree MakeTree(int N)
         scanf("%d", &v);
         T = Insert(T, v);
     }
-
+    printf("T->value:%d\n", T->v);
     return T;
 }
 
